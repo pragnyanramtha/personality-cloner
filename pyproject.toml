@@ -1,0 +1,9 @@
+[project]
+name = "personality"
+version = "0.1.0"
+description = "A simple personality cloner using unsloth"
+readme = "README.md"
+requires-python = "==3.11.13"
+dependencies = [
+    "unsloth>=2025.11.2",
+]

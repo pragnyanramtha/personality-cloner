@@ -1,0 +1,19 @@
+# Point to your local GGUF file
+# (Update this path to where you saved your GGUF)
+FROM ./llama-3.1-8b-Instruct.Q4_K_M.gguf
+
+# Set the Llama 3.1 chat template
+TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+{{ .Response }}<|eot_id|>"""
+
+# Set a custom system prompt
+SYSTEM "" {Write down basic information about yourself here} """
+
+# Set the stop tokens
+PARAMETER stop <|eot_id|>
+PARAMETER stop <|start_header_id|>
