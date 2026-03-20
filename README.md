@@ -1,4 +1,4 @@
-🔥 Llama 3.1 Personality Clone Pipeline 🔥
+## 🔥 Llama 3.1 Personality Clone Pipeline 🔥
 
 This is the full end-to-end MLOps pipeline to build a personality-cloned AI of yourself.
 
