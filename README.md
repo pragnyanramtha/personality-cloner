@@ -1,3 +1,7 @@
+# update: after 3 months of training. my the model is here: https://huggingface.co/pragnyanramtha/pragnyan-clone/ ! 
+
+---
+
 ## 🔥 Llama 3.1 Personality Clone Pipeline 🔥
 
 This is the full end-to-end MLOps pipeline to build a personality-cloned AI of yourself.
